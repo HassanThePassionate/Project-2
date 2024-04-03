@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.intro {
+  padding: 50px;
+}
+.intro h1 {
+  font-size: 144px;
+  font-weight: 600;
+  line-height: 144px;
+  letter-spacing: -10px;
+}
+.place {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.place h3,
+.place h4,
+h5 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.hero_img {
+  height: 80vh;
+  background: url("https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+.about h2 {
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 88px;
+  width: 60%;
+  border-right: 2px solid rgb(20, 3, 3);
+}
+.about_me {
+  display: flex;
+  align-items: center;
+  height: 35vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.socials .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+  width: 52px;
+  border-radius: 99999px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.socials .icon i {
+  font-size: 22px;
+}
